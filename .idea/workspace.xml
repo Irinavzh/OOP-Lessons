@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efaa60c9-85ed-42ca-886f-458886c70a6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dog/LoginFailedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dog/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dog/PrintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dog/ApplyDubPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dog/ApplyDubPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dog/ApplyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dog/ApplyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dog/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dog/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dog/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dog/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dog/ApplyDubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dog/ApplyDubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dog/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dog/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dog/LoginFailedPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dog/LoginPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dog/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dog/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog/ApplyDubPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dog/ApplyDubPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog/ApplyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dog/ApplyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dog/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dog/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dog/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/ApplyDubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/ApplyDubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/ApplyEmailErrorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/ApplyEmailErrorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/ApplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/ApplyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/ErrorMassageListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/ErrorMassageListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/ErrorMessageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/ErrorMessageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/LoginFailedPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dog/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dog/SecondTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +67,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.ApplyEmailErrorTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApplyDubTest">
     <configuration name="ApplyDubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
@@ -53,6 +84,22 @@
       <option name="PACKAGE_NAME" value="dog" />
       <option name="MAIN_CLASS_NAME" value="dog.ApplyDubTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplyDubTest.testApplyDub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dog" />
+      <option name="MAIN_CLASS_NAME" value="dog.ApplyDubTest" />
+      <option name="METHOD_NAME" value="testApplyDub" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorMassageListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +128,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dog" />
-      <option name="MAIN_CLASS_NAME" value="dog.ErrorMassageListTest" />
+      <option name="MAIN_CLASS_NAME" value="dog.FirstTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginFailedPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
         <pattern>
@@ -96,22 +143,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dog" />
-      <option name="MAIN_CLASS_NAME" value="dog.LoginFailedPageTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dog" />
-      <option name="MAIN_CLASS_NAME" value="dog.LoginPageTest" />
+      <option name="MAIN_CLASS_NAME" value="dog.SecondTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplyEmailErrorTest" />
-        <item itemvalue="JUnit.LoginFailedPageTest" />
-        <item itemvalue="JUnit.LoginPageTest" />
         <item itemvalue="JUnit.ApplyDubTest" />
-        <item itemvalue="JUnit.ErrorMassageListTest" />
+        <item itemvalue="JUnit.ApplyDubTest.testApplyDub" />
+        <item itemvalue="JUnit.SecondTest" />
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.ApplyEmailErrorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +185,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="112" key="#LoginPageTest" timestamp="1585696894031">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="0" y="112" key="#LoginPageTest/0.23.1440.831@0.23.1440.831" timestamp="1585696894031" />
+    <state x="0" y="112" key="#LoginTest" timestamp="1585696966064">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="0" y="112" key="#LoginTest/0.23.1440.831@0.23.1440.831" timestamp="1585696966064" />
     <state x="320" y="104" key="#Project_Structure" timestamp="1583969383318">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
@@ -161,25 +201,25 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="100" y="123" width="1240" height="631" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.831@0.23.1440.831" timestamp="1584323200161" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1585596676428">
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1585704961579">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585596676428" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585704961579" />
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1584324718707" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1585596676425">
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1585704961578">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585596676425" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585704961578" />
     <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1584324718706" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1585596676419">
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1585704961578">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585596676419" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585704961578" />
     <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1584324718706" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1585596676426">
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1585704961578">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585596676426" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585704961578" />
     <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1584324718707" />
     <state x="399" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1585514753109">
       <screen x="0" y="23" width="1440" height="831" />

@@ -1,5 +1,6 @@
 package dog;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -22,8 +23,5 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public void waitUntilVisible(WebElement element) {
-      wait.until(ExpectedConditions.elementToBeSelected(element));
-    }
 
 }

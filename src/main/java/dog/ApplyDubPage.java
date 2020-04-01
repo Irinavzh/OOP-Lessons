@@ -1,5 +1,6 @@
 package dog;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +13,7 @@ public class ApplyDubPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = "input")
+    @FindBy(css = "input.sc-iwsKbI")
     private List<WebElement> listFields;
 
     @FindBy(css = ".sc-bdVaJa.sc-bxivhb.laYMsi")
@@ -20,6 +21,8 @@ public class ApplyDubPage extends BasePage {
 
     @FindBy(css = ".sc-bdVaJa.sc-bxivhb.laYMsi")
     private List<WebElement> errorEmailMessage;
+
+
 
 
     public void inputEmail(String email) {
@@ -73,27 +76,27 @@ public class ApplyDubPage extends BasePage {
     }
 
     public String getErrorEmailFromList() {
-        waitUntilVisible(listErrorMessage.get(0));
+        waitUntilClickable(listErrorMessage.get(0));
         return listErrorMessage.get(0).getText();
     }
 
     public String getErrorFirstNameFromList() {
-        waitUntilVisible(listErrorMessage.get(1));
+        waitUntilClickable(listErrorMessage.get(1));
         return listErrorMessage.get(1).getText();
     }
 
     public String getErrorLastNameFromList() {
-        waitUntilVisible(listErrorMessage.get(2));
+        waitUntilClickable(listErrorMessage.get(2));
         return listErrorMessage.get(2).getText();
     }
 
     public String getErrorPhoneFromList() {
-        waitUntilVisible(listErrorMessage.get(3));
+        waitUntilClickable(listErrorMessage.get(3));
         return listErrorMessage.get(3).getText();
     }
 
     public String getErrorEmailText() {
-        waitUntilVisible(errorEmailMessage.get(0));
+        waitUntilClickable(errorEmailMessage.get(0));
         return errorEmailMessage.get(0).getText();
     }
 }

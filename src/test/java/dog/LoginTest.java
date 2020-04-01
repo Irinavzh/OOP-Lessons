@@ -2,10 +2,10 @@ package dog;
 
 import org.junit.Test;
 
-public class LoginPageTest extends BaseTest {
+public class LoginTest extends BaseTest {
 
     @Test
-    public void testLoginPage() {
+    public void testLogin() {
 
         HomePage homePage = new HomePage(driver);
         homePage.clickLoginButton();

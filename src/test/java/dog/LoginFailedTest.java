@@ -3,10 +3,10 @@ package dog;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class LoginFailedPageTest extends BaseTest {
+public class LoginFailedTest extends BaseTest {
 
     @Test
-    public void testLoginFailedPage() {
+    public void testLoginFailed() {
 
         HomePage homePage = new HomePage(driver);
         homePage.clickLoginButton();

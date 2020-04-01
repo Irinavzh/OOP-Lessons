@@ -14,6 +14,9 @@ public class SecondTest extends BaseTest {
 
         System.out.println("SecondTest Started.");
 
+        HomePage homePage = new HomePage(driver);
+        homePage.clickBookWalkButton();
+
         Thread.sleep(3000);
 
         List<WebElement> inputFields = driver.findElements(By.cssSelector("input"));

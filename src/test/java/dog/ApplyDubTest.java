@@ -1,6 +1,12 @@
 package dog;
 
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ApplyDubTest extends BaseTest {
 
@@ -9,9 +15,10 @@ public class ApplyDubTest extends BaseTest {
 
         HomePage homePage = new HomePage(driver);
 
-        homePage.clickBookWalkButton();
+        ApplyDubPage applyDubPage = homePage.clickBookWalkButton();
 
-        ApplyDubPage applyDubPage = new ApplyDubPage(driver);
+        System.out.println(driver.getTitle());
+
 
         applyDubPage.inputEmail(user.getEmailUser());
 

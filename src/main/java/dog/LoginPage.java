@@ -40,7 +40,7 @@ public class LoginPage extends BasePage {
     }
 
     public String getErrorText() {
-        waitUntilVisible(errorMessage);
+        waitUntilClickable(errorMessage);
         return errorMessage.getText();
     }
 }

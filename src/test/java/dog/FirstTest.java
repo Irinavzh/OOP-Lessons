@@ -14,11 +14,14 @@ public class FirstTest extends BaseTest {
 
         System.out.println("FirstTest Started.");
 
+        HomePage homePage = new HomePage(driver);
+        homePage.clickBookWalkButton();
+
         Thread.sleep(3000);
 
         WebElement emailField = driver.findElement(By.cssSelector("input[name=\"email\"]"));
 
-        emailField.sendKeys("irinavzh@gmail.com");
+        emailField.sendKeys("ir@gmail.com");
 
         WebElement passwordField = driver.findElement(By.cssSelector("input[name=\"password\"]"));
 
@@ -37,5 +40,7 @@ public class FirstTest extends BaseTest {
         cellPhoneField.sendKeys("2223334455");
 
         System.out.println("FirstTest Completed.");
+
+
     }
 }

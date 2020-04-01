@@ -79,22 +79,22 @@ public class ApplyPage extends BasePage {
     }
 
     public String getErrorEmail() {
-        waitUntilVisible(listErrors.get(0));
+        waitUntilClickable(listErrors.get(0));
         return listErrors.get(0).getText();
     }
 
     public String getErrorFirstName() {
-        waitUntilVisible(listErrors.get(1));
+        waitUntilClickable(listErrors.get(1));
         return listErrors.get(1).getText();
     }
 
     public String getErrorLastName() {
-        waitUntilVisible(listErrors.get(2));
+        waitUntilClickable(listErrors.get(2));
         return listErrors.get(2).getText();
     }
 
     public String getErrorPhone() {
-        waitUntilVisible(listErrors.get(3));
+        waitUntilClickable(listErrors.get(3));
         return listErrors.get(3). getText();
     }
 }
